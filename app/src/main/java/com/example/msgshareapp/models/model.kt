@@ -1,10 +1,10 @@
-package com.example.msgshareapp
+package com.example.msgshareapp.models
 
-data class Hobby(var title : String)
+data class Hobby(var title: String)
 
 object Supplier {
 
-    var hobbies = listOf<Hobby>(
+    var hobbies = listOf(
         Hobby("Swimming"),
         Hobby("Movies"),
         Hobby("Singing"),
